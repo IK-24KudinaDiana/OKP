@@ -3,78 +3,102 @@
 <head>
     <meta name = "description" content = "Головна сторінка тур агенції">
     <meta name = "author" content = "Кудіна Діана">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Головна сторінка</title>
 </head>
 <body style="background-color: #1c4db73b;">
-    <header>
-        <img src="Лого туризм.jpg" alt="Логотип сайту" width="150" height="100">
-        <nav>
-            <span><a href="index.html">Головна</a></span>
-            <span><a href="about.html">Про нас</a></span>
-            <span><a href="contact.html">Контакти</a></span>
-            <span><a href="gallery.html">Галерея</a></span>
-        </nav> 
-        <hr></hr> 
-        
-    </header>
-    
-    <main>
-        <img src="karpaty-2.jpeg" alt="Карпати" width="968" height="528">
-        <a href="#name"> <h1 size="4" face="Arial" style="font-weight: bold; font-style: italic; text-align: center;">Тури в Карпати</h1> </a>
-        <h3>Карпати – це завжди гарна ідея, незалежно від пори року і величини компанії. 
-            Ті, хто хоч раз побували тут, повертаються сюди знову і знову. Бо тури в Карпати – це свіжий приплив енергії життя, це нові враження.
-            Якщо Ви раніше ніколи не були в горах і вирішили спробувати - Вас можна тільки привітати! 
-            Не важливо, який саме маршрут або час року Ви оберете з нами Вам завжди буде цікаво.
-            Переходьте за посиланням <a href="https://mtourism.com.ua/" target="_blank">тиць</a>
-        </h3>
-    
-        <h1 class="news-title">
-            <div class="headerline-wrapper" style="width: 0px;"><div class="header-line"></div></div><span id="name" size="4" face="Arial" style="font-weight: bold; font-style: italic; text-align: center;">
-            Популярні Тури Україною        </span><div class="headerline-wrapper" style="width: 0px;"><div class="header-line"></div></div><div class="clr"></div>
-        </h1>
-        <div class="news-item">
-            <a href="gucul-karpaty.jpg" target="_blank">
-                <img src="gucul-karpaty.jpg" alt="гуцульські карпати" width="1170" height="883">
+    <div class="content-wrapper">
+        <header class="main-header">
+            <div class="logo">
+                <img src="logo.jpg" alt="Логотип сайту" width="100" height="50">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Головна</a></li>
+                    <li><a href="about.html" class="nav-link">Про нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакти</a></li>
+                    <li><a href="gallery.html" class="nav-link">Галерея</a></li>
+                </ul>
+            </nav>
+            
+            
+        </header >
+        <div class="separator"></div>
+        <main>
+            <a href="#name" class="tour-link">
+                <h1 class="tour-title">Тури в Карпати</h1>
             </a>
-
-
-             
-             <h3 class="newsflash-title" size="4" face="Arial" style="font-weight: bold; font-style: italic; text-align: center;">ЗИМОВЕ ПЕРЕЗАВАНТАЖЕННЯ В КАРПАТАХ ЗІ ЛЬВОВА (4 ДНІ)</h3>
-             <div class="news-text"><strong class="price">Ціна від 2950 грн</strong>
-             <p class="date brake_p">7-10.03, 28-31.03, 11-14.04</p>
-             <div class="brake">&nbsp;</div>
-             <p class="paragraph_p"><strong>Карпати</strong> вміють вражати зимою, особливо лижні курорти:&nbsp;<strong>Буковель</strong> та&nbsp;<strong>Драгобрат</strong>. <strong>Водоспад Пробій</strong>&nbsp;милуватиме око в будь-яку пору року, тому, що він повноводний цілий рік. У <strong>Верховині</strong> зберегли автентику ремесел і заворожуючі мелодії, які&nbsp;грають на старовинних інструментах. Тут знають найцікавіші легенди та історії про <strong>мольфарів</strong>. Вміють готувати унікальні гуцульські наїдки. А на <strong>Полонині Перців</strong> точно знайдете собі заняття для незабутніх розваг.</p>
-             <p class="date brake_p">&nbsp;</p>
-             <p>Ось наші контакти для уточнення деталей -  <a href="contact.html#con" style="color: rgb(68, 231, 68);">тиць</a></p>
+            <div class="content">
+                <img src="karpaty-2.jpeg" alt="Карпати" class="image">
+                <div class="text">
+                    <p><strong>Карпати</strong> – це завжди гарна ідея, незалежно від пори року і величини компанії. 
+                        Ті, хто хоч раз побували тут, повертаються сюди знову і знову. Бо тури в Карпати – це свіжий приплив енергії життя, це нові враження.
+                        Якщо Ви раніше ніколи не були в горах і вирішили спробувати - Вас можна тільки привітати! 
+                        Не важливо, який саме маршрут або час року Ви оберете з нами Вам завжди буде цікаво.
+                        Переходьте за посиланням  - <a href="https://mtourism.com.ua/" target="_blank">тиць</a>
+                    </p>
+                </div>
+            </div>
+            <h1 class="news-title">
+                <span id="name">Популярні Тури Україною</span>              
+            </h1>
+            <div class="content">              
+                <a href="gucul-karpaty.jpg" target="_blank" class="image-link">
+                    <img src="gucul-karpaty.jpg" alt="гуцульські карпати" class="image1">
+                </a>
+                <div class="text">
+                    <h3 class="newsflash-title">ЗИМОВЕ ПЕРЕЗАВАНТАЖЕННЯ В КАРПАТАХ ЗІ ЛЬВОВА (4 ДНІ)</h3>
+                    <div class="news-text">
+                        <strong class="price">Ціна від 2950 грн</strong>
+                        <p class="date brake_p">7-10.03, 28-31.03, 11-14.04</p>
+                        <div class="brake">&nbsp;</div>
+                        <p class="paragraph_p"><strong>Карпати</strong> вміють вражати зимою, особливо лижні курорти:&nbsp;<strong>Буковель</strong> та&nbsp;<strong>Драгобрат</strong>. <strong>Водоспад Пробій</strong>&nbsp;милуватиме око в будь-яку пору року, тому, що він повноводний цілий рік. У <strong>Верховині</strong> зберегли автентику ремесел і заворожуючі мелодії, які&nbsp;грають на старовинних інструментах. Тут знають найцікавіші легенди та історії про <strong>мольфарів</strong>. Вміють готувати унікальні гуцульські наїдки. А на <strong>Полонині Перців</strong> точно знайдете собі заняття для незабутніх розваг.</p>
+                        <p class="date brake_p">&nbsp;</p>
+                        <p>Ось наші контакти для уточнення деталей -  <a href="contact.html#con" class="contact-link">тиць</a></p>
+                    </div>
+                </div>
+            </div>
+               
+            
+            
+            <div class="f">
+                <h1 class="news-title">
+                    <span>Наш прайс</span>              
+                </h1>
+                         
+                
+                
+                <ol type="1">
+                    <li>Екскурсія "Карпатські мальовничі міста"</li>
+                    <ul>
+                        <li>Тривалість: 3 дні</li>
+                        <li>Вартість: $300</li>
+                    </ul>
+                    <li>Еко-туризм "Дослідження карпатських лісів"</li>
+                    <ul>
+                        <li>Тривалість: 5 днів</li>
+                        <li>Вартість: $500</li>
+                    </ul>
+                    <li>Велопохід "По горах Карпат"</li>
+                    <ul>
+                        <li>Тривалість: 7 днів</li>
+                        <li>Вартість: $700</li>
+                    </ul>
+                </ol>
+            </div>
+        </main>
+        <div class="separator"></div>
+        <footer>
+            <div class="robota">
+                <h3>Робота: Кудіної Діани ІК-24</h3>
+            </div>
+            <div class="year">
+                <h3>2024</h3>
             </div>
             
-        </div>
-        <div>
-            <h2>Прайс на послуги тур агенства "Відпочинок у Карпатах"</h2>
-            <ol type="1">
-                <li>Екскурсія "Карпатські мальовничі міста"</li>
-                <ul>
-                    <li>Тривалість: 3 дні</li>
-                    <li>Вартість: $300</li>
-                </ul>
-                <li>Еко-туризм "Дослідження карпатських лісів"</li>
-                <ul>
-                    <li>Тривалість: 5 днів</li>
-                    <li>Вартість: $500</li>
-                </ul>
-                <li>Велопохід "По горах Карпат"</li>
-                <ul>
-                    <li>Тривалість: 7 днів</li>
-                    <li>Вартість: $700</li>
-                </ul>
-            </ol>
-        </div>
-    </main>
+        </footer>
+       
+    </div>
     
-    <footer>
-    <hr></hr> 
-        <h3>Робота: Кудіної Діани ІК-24</h3>
-    </footer>
-   
 </body>
 </html>
