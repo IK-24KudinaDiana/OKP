@@ -1,0 +1,100 @@
+
+#newsflash-title{
+    color: rgb(35, 76, 42); 
+    font-style: italic;
+}
+
+.container{
+    text-align: justify;
+    color: rgb(235, 132, 132);
+}
+
+h1.title{
+    color: rgb(81, 148, 219); 
+}
+
+/* Задання стилів для тіла (BODY) */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black; 
+    font-family: Arial, sans-serif;  
+    background-color: #1c4db73b;
+}
+main {
+    font-size: 20px;
+    color: rgb(76, 76, 160); 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+.main-text{
+    font-size: 17px;
+    color: rgb(80, 80, 89); 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+}
+
+p.paragraph_p{
+    font-size: 17px;
+    color: rgb(62, 46, 104); 
+    margin-bottom: 20px;
+}
+#contact{
+    color: rgb(35, 76, 42); 
+    font-style: italic;
+}
+a {
+    color: rgb(97, 67, 247); 
+}
+a.con{
+    color: rgb(67, 205, 247); 
+    font-weight: bold; 
+    font-size: 24px;
+}
+#G1{
+    font-size: 23px;
+    color: rgb(80, 80, 89); 
+}
+
+
+body a {
+   font-weight: normal !important; 
+}
+
+
+.paragraph {
+    font-size: 18px;
+    color: grey; 
+    margin-bottom: 15px; 
+}
+
+
+ul, ol {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+li {
+    margin-bottom: 5px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}
+
+
+
