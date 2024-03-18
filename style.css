@@ -97,4 +97,19 @@ th {
 }
 
 
+/* Cусідній селектор для зміни стилю перших двох рядків таблиці */
+tr:first-child,
+tr:first-child + tr {
+    font-weight: bold;
+    color: #41aef7; 
+}
 
+/* Контекстні селектори */
+tr:last-child td:first-child {
+    background-color: #ffc107; 
+}
+/* Дочірні селектори */
+.container > h2 {
+    font-size: 16px;
+    color: #10a677;
+}
